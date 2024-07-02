@@ -516,4 +516,53 @@ img {
 .social-footer-svg {
   fill: #f4f4fd;
 }
+.container-subscribe {
+  margin-left: 80px;
+}
+
+.subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.email-form {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.button-subscribe {
+  min-width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  flex-direction: row;
+  gap: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  height: 40px;
+  background-color: #4d5ae5;
+}
 /* modal */
