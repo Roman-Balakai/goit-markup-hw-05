@@ -723,11 +723,7 @@ input:focus + .user-name-svg {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 8px;
+  gap: 10px;
 }
 input:checked + label > span {
   background-color: #404bbf;
@@ -746,10 +742,12 @@ input:checked + label > span {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .link-checkbox {
   color: #4d5ae5;
   text-decoration: underline;
+  margin-left: 4px;
 }
 .button-submit {
   display: block;
